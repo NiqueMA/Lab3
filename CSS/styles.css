@@ -1,0 +1,138 @@
+  body
+  {
+      background-color: #1e212d;
+      text-align: center;
+      color: #b68973;
+  }
+  button
+  {
+    background-color: #faf3e0;
+    border: none;
+    color:#b68973;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+    border-radius: 12px;
+    cursor: pointer;
+
+  }
+  #eye
+  {
+    position: absolute;
+    top: 125px;
+    left: 190px;
+    width: 25%;
+    
+  }
+  .eyemenu 
+  {
+    width: 150px; /* Set a width if you like */
+    display: inline-block;
+  }
+  
+  .eyemenu a 
+  {
+    display: inline; /* Make the links appear below each other */
+    text-decoration: none; /* Remove underline from links */
+  }
+  #face
+  {
+    position: relative;
+    width: 100%;
+  }
+  h1
+  {
+    font-weight: bold;
+    font-size: 100px;
+    margin-bottom: 20px;
+  }
+  #hair
+  {
+    position: absolute;
+    top: 30px;
+    left: 95px;
+    width: 60%;
+    
+  }
+  .hairmenu 
+{
+  width: 150px; /* Set a width if you like */
+  display: inline-block;
+  
+}
+
+.hairmenu a 
+{
+  display: inline; /* Make the links appear below each other */
+  text-decoration: none; /* Remove underline from links */
+}
+#mouth
+{
+  position: absolute;
+  top: 350px;
+  left: 200px;
+  width: 20%;
+}
+.mouthmenu 
+{
+  width: 150px; /* Set a width if you like */
+  display: inline-block;
+}
+
+.mouthmenu a 
+{
+  display: inline; /* Make the links appear below each other */
+  text-decoration: none; /* Remove underline from links */
+}
+#nose
+  {
+    position: absolute;
+    top: 225px;
+    left: 185px;
+    width: 25%;
+    
+  }
+  .nosemenu 
+{
+  width: 150px; /* Set a width if you like */
+  display: inline-block;
+}
+
+.nosemenu a 
+{
+  display: inline; /* Make the links appear below each other */
+  text-decoration: none; /* Remove underline from links */
+}
+ .output
+ {
+  
+    width: 500px;
+    height: 500px;
+    
+    border: 1px solid white;
+    position: relative;
+    margin-top: 10px;
+    
+    background-color: #f0a500;
+    display: inline-block;
+    margin: auto;
+    
+ }
+
+ 
+/*
+.overlay {
+  position: absolute; 
+ 
+  
+  top: 0px;
+  left: 0px;
+ 
+  
+  z-index: 2;  Specify a stack order in case you're using a different order for other elements 
+  
+  
+}
+*/
+
